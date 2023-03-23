@@ -16,6 +16,10 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - 你好！
+    - 您好！
+    - 喂！
+    - 在吗！
 
 - intent: goodbye
   examples: |
@@ -29,6 +33,11 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - 拜拜！
+    - 再见！
+    - 拜！
+    - 退出。
+    - 结束。
 
 - intent: affirm
   examples: |
@@ -89,3 +98,12 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent:medicine
+  examples: |
+    - [感冒](disease)了，该吃什么药？
+    - 我[便秘](disease)了，该吃什么药？
+    - 我[胃痛](disease)了，该吃什么药？
+    - 一直[打喷嚏](disease)，吃什么药好？
+    - 父母都有
+    
