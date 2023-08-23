@@ -3,6 +3,7 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
+    - hola
     - hey
     - hello
     - hi
@@ -23,6 +24,7 @@ nlu:
 
 - intent: goodbye
   examples: |
+    - Adios
     - cu
     - good by
     - cee you later
@@ -41,6 +43,7 @@ nlu:
 
 - intent: affirm
   examples: |
+    - Si
     - yes
     - y
     - indeed
@@ -99,11 +102,25 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent:medicine
+- intent: medicine
   examples: |
     - [感冒](disease)了，该吃什么药？
     - 我[便秘](disease)了，该吃什么药？
     - 我[胃痛](disease)了，该吃什么药？
     - 一直[打喷嚏](disease)，吃什么药好？
-    - 父母都有
+    - 父母都有[高血压](disease)，我应该推荐他们吃什么药好？
+    - 头上烫烫的，感觉[发烧](disease)了，该吃什么药？
+    - [减肥](disease)有什么好的药品推荐吗？
+- intent: medical_department
+  examples: |
+    - [感冒](disease)了，该去哪个科室看病？
+    - 我[便秘](disease)了，该去挂哪个科室的号？
+    - 我[胃痛](disease)，该去医院看哪个门诊啊？
+    - [头疼](disease)，该去哪个科室？
+- intent: medical_hospital
+  examples: |
+    - 我生病了，不知道去哪里看病。
+    - [减肥](disease)，有什么好的医院或健康中心推荐吗？
+    - 想做个[体检](disease)，哪家医院或哪里的诊所或健康中心比较实惠啊？
+    - 父母都有[高血压](disease)，我应该推荐他们去哪家医院好呢？
     
